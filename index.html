@@ -3,7 +3,68 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>World Clock</title>
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <h1>World Clock</h1>
+      <select name="" id="city">
+        <option value="">Select a city...</option>
+        <option value="current">Current location</option>
+        <option value="Europe/Porto>">Porto</option>
+        <option value="America/Los_Angeles">Los Angeles</option>
+        <option value="Europe/Zurich">Zurich</option>
+        <option value="Australia/Sydney">Sydney</option>
+        <option value="Europe/Rome">Rome</option>
+        <option value="Europe/Paris">Paris</option>
+        <option value="America/New_York">New York</option>
+        <option value="Pacific/Auckland">Auckland</option>
+        <option value="Africa/Angola">Angola</option>
+      </select>
+      <div id="cities">
+        <div class="city" id="los-angeles">
+          <div>
+            <h2>Los Angeles</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time">
+            18:03:00
+            <small class="am"> AM </small>
+          </div>
+        </div>
+
+        <div class="city" id="porto">
+          <div>
+            <h2>Porto</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time">
+            18:03:00
+            <small class="am"> AM </small>
+          </div>
+        </div>
+
+        <div class="city" id="sydney">
+          <div>
+            <h2>Sydney</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time">
+            18:03:00
+            <small> AM </small>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <footer>
+        Coded by Vera Teixeira |
+      <a href="" target="_blank"
+        >Open sourced on GitHub.</a
+      >
+    </footer>
+
+    <script src="index.js"></script>
+  </body>
 </html>
